@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">    
-        <meta name="viewport" content="width=device-width">    
-        <tytle>Curriculum Vitae </tytle>
-    </head>
-    <body>
-        <header>
-         <h1>Curriculum Vitae</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href ="#informacion">Inicio </a></li>
-                <li><a href ="#educacion">Educación</a></li>
-                <!--<li><a href ="#">Experiencia </a></li>-->
-                <li><a href ="#Proyectos">Proyectos </a></li>
-                <li><a href ="#habilidades">Habilidades </a></li>
-                <li><a href ="#contacto">Contacto </a></li>
-            </ul>
-        </nav>
-        <section id="informacion">
-                <h2>Información Personal</h2>
-                <p>Nombre: <span>César Alejandro </span> </p>
-                <p>Apellido: <span>Arana Castro</span></p>
-                <p>Edad: <span>22 años</span></p>
-                <p>Nacionalidad: <span>Ecuatoriano</span></p>
-        </section>
-        <section id="educacion">
-            <h2>Educación</h2>
-            <p>Universidad: <span>Escuela Superior Politécnica del Litoral</span></p>
-            <p>Carrera: <span>Ingeniería en Computación</span></p>
-            <p>Periodo: <span>2021-2024</span></p>
-        </section>
-        <section id="Proyectos">
-            <h2>Proyectos</h2>
-            <li> Proyecto 1: <a href ="https://github.com/carana08/Taller03">Patrones de Diseño </a></li>
-            <li>Proyecto 2: <a href ="https://github.com/carana08/POO-P2-G02">Aplicación de Citas Médicas </a></li>
-            <li>Proyecto 3: <a href ="https://github.com/RicardoMolinaCoronel/PRED1P">Tienda de aplicaciones</a></li>
-            <h3>Imagenes de la implementacion de los proyectos desarrollados</h3>
-            <img src="https://placehold.co/600x400">
-        </section>
-        <section id="habilidades">
-        <h2>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href = "stylesheets/style.css">
+    <tytle>Curriculum Vitae </tytle>
+</head>
+
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#informacion">Inicio </a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <!--<li><a href ="#">Experiencia </a></li>-->
+            <li><a href="#Proyectos">Proyectos </a></li>
+            <li><a href="#habilidades">Habilidades </a></li>
+            <li><a href="#contacto">Contacto </a></li>
+        </ul>
+    </nav>
+   
+    <section id="informacion">
+        
+        <h2 class="titulo">Información Personal</h2>
+        <p>Nombre: <span>César Alejandro </span> </p>
+        <p>Apellido: <span>Arana Castro</span></p>
+        <p>Edad: <span>22 años</span></p>
+        <p>Nacionalidad: <span>Ecuatoriano</span></p>
+    </section>
+    
+    <section id="educacion">
+        <h2 class="titulo">Educación</h2>
+        <p>Universidad: <span>Escuela Superior Politécnica del Litoral</span></p>
+        <p>Carrera: <span>Ingeniería en Computación</span></p>
+        <p>Periodo: <span>2021-2024</span></p>
+    </section>
+    <section id="Proyectos">
+        <h2 class="titulo">Proyectos</h2>
+        <li> Proyecto 1: <a href="https://github.com/carana08/Taller03">Patrones de Diseño </a></li>
+        <li>Proyecto 2: <a href="https://github.com/carana08/POO-P2-G02">Aplicación de Citas Médicas </a></li>
+        <li>Proyecto 3: <a href="https://github.com/RicardoMolinaCoronel/PRED1P">Tienda de aplicaciones</a></li>
+        <h3>Imagenes de la implementacion de los proyectos desarrollados</h3>
+        <img src="https://placehold.co/600x400">
+    </section>
+    <section id="habilidades">
+        <h2 class="titulo">
             Habilidades
         </h2>
         <li>Programción en Java y python</li>
         <!--<li>b</li>-->
-        </section>
-        <section id="contacto">
-        <h2>
+    </section>
+    <section id="contacto">
+        <h2 class="titulo">
             Contacto
         </h2>
         <li>Correo: <span>carana@espol.edu.ec</span></li>
-        <li> <a href ="https://www.linkedin.com/in/cesar-arana-619178180/">Linkendin</a></li>
-        </section>
-        <section>
-            <h3>Si está interesado en contactarse conmigo ingrese la siguiente Información</h3>
-            <form action = "/procesar-formulario" method="Post">
-                <label for="nombre">
-                    Nombre:
-                </label><input type="text" id="nombre" name="nombre" required>
-                <br>
-                <label for ="email">
-                    Email:
-                </label><input type ="email" id="email"  name="email" >
-                    <input type="submit" value="Enviar">
-                </form>
-            </section>
+        <li> <a href="https://www.linkedin.com/in/cesar-arana-619178180/">Linkendin</a></li>
+    </section>
+    <section>
+        <h3>Si está interesado en contactarse conmigo ingrese la siguiente Información</h3>
+        <form action="/procesar-formulario" method="Post">
+            <label for="nombre">
+                Nombre:
+            </label><input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">
+                Email:
+            </label><input type="email" id="email" name="email">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
 
 
-    </body>
+</body>
+
 </html>
