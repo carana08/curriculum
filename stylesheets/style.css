@@ -6,26 +6,33 @@
     font-family: Times New Roman, serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1,
-h2,
-h4 {
-    font-family: 'Montserrat', sans-serif;
+#contacto  > h4 {
+    font-family: danfo;
 }
 
 link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     color: #ff8e3c;
 }
 
 #informacion {
     background-color: white;
+    font-family: Roboto;
 }
 
 #informacion>ul {
     color: #ff8e3c;
+    
+}
+
+li {
+    font-family: Jacquard;
 }
 
 #educacion>h2,
@@ -43,7 +50,7 @@ link {
 #habilidades>p,
 #Proyectos>p {
     color: #2a2a2a;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Calligraffitti;
 }
 
 #informacion p span,
@@ -52,7 +59,7 @@ link {
 #habilidades p span,
 #Proyectos p span {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Roboto;
 }
 
 
@@ -174,6 +181,7 @@ button {
     /* Elimina los puntos predeterminados */
     padding: 0;
     margin: 0;
+    font-family: Jacquard;
 }
 
 .chince {
@@ -183,4 +191,35 @@ button {
     /* Mantiene la proporción del ícono */
     margin-right: 8px;
     margin-left: 8px;
+}
+
+#habilidades>li {
+    list-style-type: none;
+    /* Elimina los puntos predeterminados */
+    padding: 0;
+    margin: 0;
+}
+
+.flecha {
+    width: 16px;
+    /* Ajusta el tamaño del ícono */
+    height: auto;
+    /* Mantiene la proporción del ícono */
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+form {
+    display: flex;
+    justify-content: left;
+    font-family: Jacquard;
+    
+}
+
+#contacto >li{
+    list-style-type: none;
+    /* Elimina los puntos predeterminados */
+    padding: 0;
+    margin: 0;
+    font-family: Jacquard;
 }
