@@ -1,67 +1,186 @@
-*{
+* {
     font-family: Arial, sans-serif;
 }
+
 .titulo {
     font-family: Times New Roman, serif;
 }
 
-h1{
-    font-family: Georgia, serif;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-#informacion{
-    background-color: dimgrey;
+h1,
+h2,
+h4 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-#informacion{
+link {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff8e3c;
+}
+
+#informacion {
     background-color: white;
-
-}
-#educacion > h2{
-    color:red
 }
 
-#educacion{
+#informacion>ul {
+    color: #ff8e3c;
+}
+
+#educacion>h2,
+#informacion>h2,
+#contacto>h2,
+#habilidades>h2,
+#Proyectos>h2 {
+    color: #ff8e3c;
+}
+
+
+#informacion>p,
+#educacion>p,
+#contacto>p,
+#habilidades>p,
+#Proyectos>p {
+    color: #2a2a2a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#informacion p span,
+#educacion p span,
+#contacto p span,
+#habilidades p span,
+#Proyectos p span {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#educacion {
     margin: 20px 5px 1px;
-   margin-top: 0.8rem;
-   border: 0.2pt dashed #827d7d;
-   padding: 2% 1.2%;   
-   box-shadow: 
-   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-   rgba(0, 0, 0, 0.12) 0px 4px 6px,
-   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-   rgba(0, 0, 0, 0.09) 0px -3px 5px; 
-}
-section{
-   border: 1px solid black
+    margin-top: 0.8rem;
+    border: 0pt;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-section{
-    border-top: 10px /*solid red*/;
-    border-right: 20px /*solid blue*/;
-    border-bottom: 30px /*solid green*/;
-    border-left: 5px /*solid yellow*/;
+#contacto {
+    margin: 20px 5px 1px;
+    margin-top: 0.8rem;
+    border: 0pt dashed;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-section {
-    padding: 20px;
-
+#habilidades {
+    margin: 20px 5px 1px;
+    margin-top: 0.8rem;
+    border: 0pt dashed;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-section{
-    padding-top: 10 px;
-    padding-right: 20 px;
-    padding-bottom: 30 px;
-    padding-left: 40px;
+footer {
+    margin: 20px 5px 1px;
+    margin-top: 0.8rem;
+    border: 0pt dashed;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-section {
-    box-sizing: border-box;
-    margin: 20px;
-    border: 1px solid black;
-    padding: 10px;
-    }
-    
+#informacion {
+    margin: 20px 5px 1px;
+    margin-top: 0.8rem;
+    border: 0pt dashed;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#Proyectos {
+    margin: 20px 5px 1px;
+    margin-top: 0.8rem;
+    border: 0pt dashed;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+button {
+    color: #ff8e3c;
+}
+
+.lista {
+    list-style-type: none;
+    /* Elimina los puntos predeterminados */
+    padding: 0;
+    margin: 0;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los íconos con el texto */
+}
+
+.list-icon {
+    width: 16px;
+    /* Ajusta el tamaño del ícono */
+    height: auto;
+    /* Mantiene la proporción del ícono */
+    margin-right: 8px;
+    margin-left: 8px;
+    /* Espacio entre el ícono y el texto */
+}
+
+#Proyectos>li {
+    list-style-type: none;
+    /* Elimina los puntos predeterminados */
+    padding: 0;
+    margin: 0;
+}
+
+.chince {
+    width: 16px;
+    /* Ajusta el tamaño del ícono */
+    height: auto;
+    /* Mantiene la proporción del ícono */
+    margin-right: 8px;
+    margin-left: 8px;
+}
