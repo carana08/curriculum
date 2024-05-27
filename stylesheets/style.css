@@ -1,11 +1,11 @@
-/* * {
+* {
     font-family: Arial, sans-serif;
 }
 
 .titulo {
     font-family: Times New Roman, serif;
 }
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -17,7 +17,7 @@
 link {
     font-family: Montserrat;
     font-size: 2pt;
-    color: #ff8e3c;
+    color: #ffa869;
 }
 
 #informacion {
@@ -35,7 +35,7 @@ li {
 #contacto>h2,
 #habilidades>h2,
 #Proyectos>h2 {
-    color: #ff8e3c;
+    color: black;
 }
 
 
@@ -44,19 +44,20 @@ li {
 #contacto>p,
 #habilidades>p,
 #Proyectos>p {
-    color: #2a2a2a;
+    color: #313030;
 }
 
 #informacion span,
 #educacion span,
 #contacto span,
 #habilidades span,
-#Proyectos span {
+#Proyectos  span {
     color: black;
     font-family: Montserrat; 
 }
 
 #educacion {
+    background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
     border: 0pt;
@@ -70,6 +71,7 @@ li {
 }
 
 #contacto {
+    background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
     border: 0pt dashed;
@@ -83,6 +85,7 @@ li {
 }
 
 #habilidades {
+    background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
     border: 0pt dashed;
@@ -96,6 +99,7 @@ li {
 }
 
 footer {
+    background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
     border: 0pt dashed;
@@ -109,6 +113,7 @@ footer {
 }
 
 #informacion {
+    background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
     border: 0pt dashed;
@@ -122,6 +127,7 @@ footer {
 }
 
 #Proyectos {
+    background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
     border: 0pt dashed;
@@ -135,15 +141,17 @@ footer {
 }
 
 table {
+    border-color: black;
     width: 30%;
     border-collapse: collapse;
     border-spacing: 0;
     margin-top: 10px;
     font-style: italic;
+    text-align: center;
 }
 
 button {
-    color: #ff8e3c;
+    color: #ffa869;
 }
 
 .lista {
@@ -175,6 +183,7 @@ button {
     padding: 0;
     margin: 0;
     font-family: Jacquard;
+    color: #313030;
 }
 
 .chince {
@@ -214,6 +223,10 @@ form {
     /* Elimina los puntos predeterminados */
     padding: 0;
     margin: 0;
+    color: #313030;
 }
 
+#contacto > .subtitulo{
+    font-family: Roboto;
+}
 
