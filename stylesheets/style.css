@@ -112,6 +112,7 @@ li {
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+
 #Proyectos {
     flex-basis: 100%;
     background-color: #ffa869;
@@ -223,4 +224,8 @@ form {
     padding: 0;
     margin: 0;
     color: #313030;
+}
+
+#Proyectos .imagenes img:hover {
+    cursor: pointer;
 }
