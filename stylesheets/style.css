@@ -7,21 +7,44 @@
 }
 
 
+
+main {
+    /* Modo de colocar los elementos internos de manera flexible */
+    display: flex;
+    /* Eje primario con la dirección de los elementos */
+    flex-direction: row;
+    /* Separación entre filas */
+    /* row-gap: 1.5rem;
+  /* Separación entre columnas */
+    /* column-gap: 0rem; */
+    /* Los elementos ocupan el espacio de acuerdo a su tamaño */
+    flex-wrap: wrap;
+    /* Los elementos están distribuidos uniformemente en el eje primario  */
+    justify-content: space-between;
+    /* Los elementos se estiran para llenar el eje transversal */
+    align-items: stretch;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+h4 {
+    font-family: Roboto, sans-serif;
+}
 
 link {
     font-family: Montserrat;
     font-size: 2pt;
 }
 
-#informacion {
-    background-color: white;
 
+#Inicio {
+    flex-basis: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -33,7 +56,8 @@ li {
 #informacion>h2,
 #contacto>h2,
 #habilidades>h2,
-#Proyectos>h2 {
+#Proyectos>h2,
+#atencionPersonal>h2 {
     color: black;
 }
 
@@ -50,12 +74,31 @@ li {
 #educacion span,
 #contacto span,
 #habilidades span,
-#Proyectos  span {
+#Proyectos span {
     color: black;
-    font-family: Montserrat; 
+    font-family: Montserrat;
 }
 
+#informacion,
 #educacion {
+    flex-basis: 47%;
+    background-color: #ffa869;
+    margin: 20px 1px 1px;
+    margin-top: 0.8rem;
+    border: 0pt;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 40px 35px,
+        rgba(0, 0, 0, 0.12) 0px -12px 20px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#habilidades,
+#contacto,
+#atencionPersonal {
+    flex-basis: 26%;
     background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
@@ -69,25 +112,12 @@ li {
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#contacto {
+#Proyectos {
+    flex-basis: 100%;
     background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
-    border: 0pt dashed;
-    padding: 2% 1.2%;
-    box-shadow:
-        rgba(0, 0, 0, 0.25) 0px 40px 35px,
-        rgba(0, 0, 0, 0.12) 0px -12px 20px,
-        rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px,
-        rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-#habilidades {
-    background-color: #ffa869;
-    margin: 20px 5px 1px;
-    margin-top: 0.8rem;
-    border: 0pt dashed;
+    border: 0pt;
     padding: 2% 1.2%;
     box-shadow:
         rgba(0, 0, 0, 0.25) 0px 40px 35px,
@@ -98,10 +128,11 @@ li {
 }
 
 footer {
+    flex-basis: 100%;
     background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
-    border: 0pt dashed;
+    border: 0pt;
     padding: 2% 1.2%;
     box-shadow:
         rgba(0, 0, 0, 0.25) 0px 40px 35px,
@@ -111,40 +142,11 @@ footer {
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#informacion {
-    background-color: #ffa869;
-    margin: 20px 5px 1px;
-    margin-top: 0.8rem;
-    border: 0pt dashed;
-    padding: 2% 1.2%;
-    box-shadow:
-        rgba(0, 0, 0, 0.25) 0px 40px 35px,
-        rgba(0, 0, 0, 0.12) 0px -12px 20px,
-        rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px,
-        rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-#Proyectos {
-    background-color: #ffa869;
-    margin: 20px 5px 1px;
-    margin-top: 0.8rem;
-    border: 0pt dashed;
-    padding: 2% 1.2%;
-    box-shadow:
-        rgba(0, 0, 0, 0.25) 0px 40px 35px,
-        rgba(0, 0, 0, 0.12) 0px -12px 20px,
-        rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px,
-        rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
 table {
     border-color: black;
-    width: 30%;
     border-collapse: collapse;
-    border-spacing: 0;
-    margin-top: 10px;
+    margin-top: 5px;
     font-style: italic;
     text-align: center;
 }
@@ -211,21 +213,14 @@ button {
 }
 
 form {
-    display: flex;
-    justify-content: left;
     font-family: Jacquard;
-    
+    display: grid;
 }
 
-#contacto >li{
+#contacto>li {
     list-style-type: none;
     /* Elimina los puntos predeterminados */
     padding: 0;
     margin: 0;
     color: #313030;
 }
-
-#contacto > .subtitulo{
-    font-family: Roboto;
-}
-

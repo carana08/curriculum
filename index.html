@@ -11,120 +11,135 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="cabecera">Curriculum Vitae</h1>
-    </header>
-    <nav>
-        <ul class="lista">
-            <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#informacion">Inicio </a>
+    <main>
+        <section id="Inicio">
+            <header>
+                <h1 class="cabecera">Curriculum Vitae</h1>
+            </header>
+            <nav id="navegacion">
+                <ul class="lista">
+                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#informacion">Inicio
+                        </a>
+                    </li>
+                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a
+                            href="#educacion">Educación</a>
+                    </li>
+                    <!--<li><a href ="#">Experiencia </a></li>-->
+                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#Proyectos">Proyectos
+                        </a>
+                    </li>
+                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a
+                            href="#habilidades">Habilidades
+                        </a></li>
+                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#contacto">Contacto
+                        </a></li>
+                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a
+                            href="#atencionPersonal">Atención Personal </a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="informacion">
+            <h2 class="titulo">Información Personal</h2>
+            <p>Nombre: <span>César Alejandro </span> </p>
+            <p>Apellido: <span>Arana Castro</span></p>
+            <p>Edad: <span>22 años</span></p>
+            <p>Nacionalidad: <span>Ecuatoriano</span></p>
+        </section>
+        <section id="educacion">
+            <h2 class="titulo">Educación</h2>
+            <p>Universidad: <span>Escuela Superior Politécnica del Litoral</span></p>
+            <p>Carrera: <span>Ingeniería en Computación</span></p>
+            <p>Periodo: <span>2021-2024</span></p>
+        </section>
+        <section id="Proyectos">
+            <h2 class="titulo">Proyectos</h2>
+            <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 1: <a
+                    href="https://github.com/carana08/Taller03">Patrones de Diseño </a></li>
+            <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 2: <a
+                    href="https://github.com/carana08/POO-P2-G02">Aplicación de Citas Médicas </a></li>
+            <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 3: <a
+                    href="https://github.com/RicardoMolinaCoronel/PRED1P">Tienda de aplicaciones</a></li>
+            <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 4: <a
+                    href="https://github.com/carana08/Proyecto_Convertidor">Convertidor de YouTube</a></li>
+            <h3>Imagenes de la implementacion de proyectos desarrollados</h3>
+            <img src="images/proyectoSteam.png" width="450px" height="250px">
+            <img src="images/consultas.png" width="450px" height="250px">
+            <img src="images/convertidor.png" width="450px" height="250px">
+        </section>
+        <section id="habilidades">
+            <h2 class="titulo">
+                Habilidades
+            </h2>
+            <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Programción en Java y python
             </li>
-            <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#educacion">Educación</a>
+            <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Base de Datos</li>
+            <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Patrones de Diseño</li>
+            <h4 class="subtitulo">Vídeo explicando Patrones de Diseño</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ro58qYSg6j4" allowfullscreen></iframe>
+
+            <!--<li>b</li>-->
+        </section>
+        <section id="contacto">
+            <h2 class="titulo">
+                Contacto
+            </h2>
+            <li><img src="images/chinche.png" alt="chince icon" class="chince">Correo: <span>carana@espol.edu.ec</span>
             </li>
-            <!--<li><a href ="#">Experiencia </a></li>-->
-            <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#Proyectos">Proyectos </a>
+            <li><img src="images/chinche.png" alt="chince icon" class="chince"> <a
+                    href="https://www.linkedin.com/in/cesar-arana-619178180/">Linkendin</a>
             </li>
-            <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#habilidades">Habilidades
-                </a></li>
-            <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#contacto">Contacto </a></li>
-        </ul>
-    </nav>
-    <div>
-    <section id="informacion">
+            <h4 class="subtitulo">Si necesita más información, ingrese los siguientes datos para enviarle otros
+                proyectos
+            </h4>
+            <form action="" method="get">
+                <label for="nombre">
+                    Nombre:
+                </label><input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">
+                    Email:
+                </label><input type="email" id="email" name="email">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="atencionPersonal">
+            <h2 class="titulo">Atención Personal</h2>
+            <h4 class="subtitulo">Para hablar de manera personal nos podemos reunir en la siguiente ubicación, en los
+                siguientes horarios</h4>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d838.1684993283634!2d-79.96805716986012!3d-2.1445799652445268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1716675895402!5m2!1ses-419!2sec"
+                width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" align="center"></iframe>
+            <table border="1">
+                <tr>
+                    <th>Lunes</th>
+                    <td>13:00-15:00</td>
+                </tr>
+                <tr>
+                    <th>Martes</th>
+                    <td>11:00-14:00</td>
+                </tr>
+                <tr>
+                    <th>Miercoles</th>
+                    <td>13:00-15:00</td>
+                </tr>
+                <tr>
+                    <th>Jueves</th>
+                    <td>11:00-14:00</td>
+                </tr>
+                <tr>
+                    <th>Viernes</th>
+                    <td>10:00-13:00</td>
+                </tr>
+            </table>
+        </section>
 
-        <h2 class="titulo">Información Personal</h2>
-        <p>Nombre: <span>César Alejandro </span> </p>
-        <p>Apellido: <span>Arana Castro</span></p>
-        <p>Edad: <span>22 años</span></p>
-        <p>Nacionalidad: <span>Ecuatoriano</span></p>
-    </section>
-    </div>
-    <section id="educacion">
-        <h2 class="titulo">Educación</h2>
-        <p>Universidad: <span>Escuela Superior Politécnica del Litoral</span></p>
-        <p>Carrera: <span>Ingeniería en Computación</span></p>
-        <p>Periodo: <span>2021-2024</span></p>
-    </section>
-    <section id="Proyectos">
-        <h2 class="titulo">Proyectos</h2>
-        <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 1: <a
-                href="https://github.com/carana08/Taller03">Patrones de Diseño </a></li>
-        <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 2: <a
-                href="https://github.com/carana08/POO-P2-G02">Aplicación de Citas Médicas </a></li>
-        <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 3: <a
-                href="https://github.com/RicardoMolinaCoronel/PRED1P">Tienda de aplicaciones</a></li>
-        <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 4: <a
-                href="https://github.com/carana08/Proyecto_Convertidor">Convertidor de YouTube</a></li>
-        <h3>Imagenes de la implementacion de proyectos desarrollados</h3>
-        <img src="images/proyectoSteam.png" width="400px" height="250px">
-        <img src="images/consultas.png" width="400px" height="250px">
-        <img src="images/convertidor.png" width="400px" height="250px">
-    </section>
-    <section id="habilidades">
-        <h2 class="titulo">
-            Habilidades
-        </h2>
-        <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Programción en Java y python</li>
-        <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Base de Datos</li>
-        <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Patrones de Diseño</li>
-        <h4 class="subtitulo">Vídeo explicando Patrones de Diseño</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ro58qYSg6j4" allowfullscreen></iframe>
-
-        <!--<li>b</li>-->
-    </section>
-    <section id="contacto">
-        <h2 class="titulo">
-            Contacto
-        </h2>
-        <li><img src="images/chinche.png" alt="chince icon" class="chince">Correo: <span>carana@espol.edu.ec</span></li>
-        <li><img src="images/chinche.png" alt="chince icon" class="chince"> <a href="https://www.linkedin.com/in/cesar-arana-619178180/">Linkendin</a>
-        </li>
-        <h4 class="subtitulo">Si necesesita más información ingrese los siguientes datos para enviarle otros proyectos
-        </h4>
-        <form action="" method="get">
-            <label for="nombre">
-                Nombre:
-            </label><input type="text" id="nombre" name="nombre" required>
-            <br>
-            <label for="email">
-                Email:
-            </label><input type="email" id="email" name="email">
-            <input type="submit" value="Enviar">
-        </form>
-        <h4 class="subtitulo">Para hablar de manera personal nos podemos reunir en la siguiente ubicación, en los
-            siguientes horarios</h4>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d838.1684993283634!2d-79.96805716986012!3d-2.1445799652445268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1716675895402!5m2!1ses-419!2sec"
-            width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade" align="center"></iframe>
-        <table border="1">
-            <tr>
-                <th>Lunes</th>
-                <td>13:00-15:00</td>
-            </tr>
-            <tr>
-                <th>Martes</th>
-                <td>11:00-14:00</td>
-            </tr>
-            <tr>
-                <th>Miercoles</th>
-                <td>13:00-15:00</td>
-            </tr>
-            <tr>
-                <th>Jueves</th>
-                <td>11:00-14:00</td>
-            </tr>
-            <tr>
-                <th>Viernes</th>
-                <td>10:00-13:00</td>
-            </tr>
-        </table>
-
-    </section>
-
-    <footer>
-        <section class="fotter">
-            <p align="center"> © <span id="año">2024</span> César Arana Castro </p>
-
+        <footer>
+            <section class="fotter">
+                <p align="center"> © <span id="año">2024</span> César Arana Castro </p>
+            </section>
+        </footer>
+    </main>
 </body>
 
 </html>
