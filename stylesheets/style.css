@@ -1,34 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .titulo {
     font-family: Times New Roman, serif;
 }
 
-
-
-main {
-    /* Modo de colocar los elementos internos de manera flexible */
-    display: flex;
-    /* Eje primario con la dirección de los elementos */
-    flex-direction: row;
-    /* Separación entre filas */
-    /* row-gap: 1.5rem;
-  /* Separación entre columnas */
-    /* column-gap: 0rem; */
-    /* Los elementos ocupan el espacio de acuerdo a su tamaño */
-    flex-wrap: wrap;
-    /* Los elementos están distribuidos uniformemente en el eje primario  */
-    justify-content: space-between;
-    /* Los elementos se estiran para llenar el eje transversal */
-    align-items: stretch;
+h1 {
+    color: whitesmoke;
+    font-size: 2rem;
 }
 
+body {
+    background-color: #fee9d8;
+    margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+main {
+    display: flex;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin: 8px;
+}
+
+header {
+    background-color: #ee9c03;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    margin-left: 0.75%;
+    margin-right: 0.75%;
+
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -61,13 +77,17 @@ li {
     color: black;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
 #informacion>p,
 #educacion>p,
 #contacto>p,
 #habilidades>p,
 #Proyectos>p {
-    color: #313030;
+    color: black
 }
 
 #informacion span,
@@ -81,6 +101,7 @@ li {
 
 #informacion,
 #educacion {
+    border-radius: 5%;
     flex-basis: 47%;
     background-color: #ffa869;
     margin: 20px 1px 1px;
@@ -98,7 +119,8 @@ li {
 #habilidades,
 #contacto,
 #atencionPersonal {
-    flex-basis: 26%;
+    border-radius: 5%;
+    flex-basis: 24%;
     background-color: #ffa869;
     margin: 20px 5px 1px;
     margin-top: 0.8rem;
@@ -111,9 +133,25 @@ li {
         rgba(0, 0, 0, 0.17) 0px 12px 13px,
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+#contacto .titulo, #atencionPersonal .titulo {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+#atencionPersonal div , #atencionPersonal iframe{
+    display: flex;
+    padding: 1rem 1rem;
+}
+
 
 
 #Proyectos {
+    border-radius: 5%;
     flex-basis: 100%;
     background-color: #ffa869;
     margin: 20px 5px 1px;
@@ -126,30 +164,29 @@ li {
         rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px,
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#Proyectos .imagenes img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-radius: 10px;
 }
 
 footer {
     flex-basis: 100%;
-    background-color: #ffa869;
-    margin: 20px 5px 1px;
-    margin-top: 0.8rem;
-    border: 0pt;
-    padding: 2% 1.2%;
-    box-shadow:
-        rgba(0, 0, 0, 0.25) 0px 40px 35px,
-        rgba(0, 0, 0, 0.12) 0px -12px 20px,
-        rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px,
-        rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 
 
 table {
     border-color: black;
     border-collapse: collapse;
-    margin-top: 5px;
+    margin-top: 2px;
     font-style: italic;
     text-align: center;
+    text-size-adjust: 10px;
 }
 
 button {
@@ -185,7 +222,7 @@ button {
     padding: 0;
     margin: 0;
     font-family: Jacquard;
-    color: #313030;
+    color: black;
 }
 
 .chince {
@@ -197,11 +234,10 @@ button {
     margin-left: 8px;
 }
 
-#habilidades>li {
+#habilidades li {
     list-style-type: none;
     /* Elimina los puntos predeterminados */
-    padding: 0;
-    margin: 0;
+
 }
 
 .flecha {
@@ -223,7 +259,7 @@ form {
     /* Elimina los puntos predeterminados */
     padding: 0;
     margin: 0;
-    color: #313030;
+    color: black;
 }
 
 #Proyectos .imagenes img:hover {

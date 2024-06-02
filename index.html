@@ -6,44 +6,36 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="César Arana">
     <meta name="description" content="Página con mi Curriculum Vitae">
+    <meta name="keywords"
+        content="curriculum,Escuela Superior Politécnica del Litoral,computer science,python,java,c" />
     <link rel="stylesheet" href="stylesheets/style.css">
-    <tytle>Curriculum Vitae </tytle>
+    <title>Curriculum Vitae </title>
 </head>
 
 <body>
-    <main>
-        <section id="Inicio">
-            <header>
-                <h1 class="cabecera">Curriculum Vitae</h1>
-            </header>
-            <nav id="navegacion">
-                <ul class="lista">
-                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#informacion">Inicio
-                        </a>
-                    </li>
-                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a
-                            href="#educacion">Educación</a>
-                    </li>
-                    <!--<li><a href ="#">Experiencia </a></li>-->
-                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#Proyectos">Proyectos
-                        </a>
-                    </li>
-                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a
-                            href="#habilidades">Habilidades
-                        </a></li>
-                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#contacto">Contacto
-                        </a></li>
-                    <li><img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a
-                            href="#atencionPersonal">Atención Personal </a></li>
-                </ul>
+    <header>
+        <section id="header" class="nasv">
+            <h1 class="cabecera">Curriculum Vitae</h1>
+            <nav>
+                <img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#informacion">Inicio</a>
+                <img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#educacion">Educación</a>
+                <img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#Proyectos">Proyectos</a>
+                <img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#habilidades">Habilidades</a>
+                <img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#contacto">Contacto</a>
+                <img src="images/bullet.png" alt="Bullet icon" class="list-icon"><a href="#atencionPersonal">Atención
+                    Personal </a>
             </nav>
         </section>
+    </header>
+    <main>
         <section id="informacion">
-            <h2 class="titulo">Información Personal</h2>
-            <p>Nombre: <span>César Alejandro </span> </p>
-            <p>Apellido: <span>Arana Castro</span></p>
-            <p>Edad: <span>22 años</span></p>
-            <p>Nacionalidad: <span>Ecuatoriano</span></p>
+            <div>
+                <h2 class="titulo">Información Personal</h2>
+                <p>Nombre: <span>César Alejandro </span> </p>
+                <p>Apellido: <span>Arana Castro</span></p>
+                <p>Edad: <span>22 años</span></p>
+                <p>Nacionalidad: <span>Ecuatoriano</span></p>
+            </div>
         </section>
         <section id="educacion">
             <h2 class="titulo">Educación</h2>
@@ -62,29 +54,38 @@
             <li><img src="images/chinche.png" alt="chince icon" class="chince">Proyecto 4: <a
                     href="https://github.com/carana08/Proyecto_Convertidor">Convertidor de YouTube</a></li>
             <div class="imagenes">
-            <h3 class="imagenes">Imagenes de la implementacion de proyectos desarrollados</h3>
-            <img src="images/proyectoSteam.png" width="450px" height="250px">
-            <img src="images/consultas.png" width="450px" height="250px">
-            <img src="images/convertidor.png" width="450px" height="250px">
+                <h3 class="imagenes">Imagenes de la implementacion de proyectos desarrollados</h3>
+                <img src="images/proyectoSteam.png" width="350px" height="250px">
+                <img src="images/consultas.png" width="350px" height="250px">
+                <img src="images/convertidor.png" width="350px" height="250px">
             </div>
         </section>
         <section id="habilidades">
-            <h2 class="titulo">
-                Habilidades
-            </h2>
-            <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Programción en Java y python
-            </li>
-            <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Base de Datos</li>
-            <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Patrones de Diseño</li>
+            <div>
+                <h2 class="titulo">
+                    Habilidades
+                </h2>
+            </div>
+            <div class="lista">
+                <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Programción en Java y
+                    python
+                </li>
+                <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Base de Datos</li>
+                <li><img src="images/flecha-alt-derecha.png" alt="flecha icon" class="flecha">Patrones de Diseño</li>
+            </div>
             <h4 class="subtitulo">Vídeo explicando Patrones de Diseño</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ro58qYSg6j4" allowfullscreen></iframe>
-
+            <div class="video">
+                <iframe width="250" height="315" src="https://www.youtube.com/embed/Ro58qYSg6j4"
+                    allowfullscreen></iframe>
+            </div>
             <!--<li>b</li>-->
         </section>
         <section id="contacto">
+            <div>
             <h2 class="titulo">
                 Contacto
             </h2>
+            </div>
             <li><img src="images/chinche.png" alt="chince icon" class="chince">Correo: <span>carana@espol.edu.ec</span>
             </li>
             <li><img src="images/chinche.png" alt="chince icon" class="chince"> <a
@@ -105,13 +106,15 @@
             </form>
         </section>
         <section id="atencionPersonal">
+            <div>
             <h2 class="titulo">Atención Personal</h2>
+            </div>
             <h4 class="subtitulo">Para hablar de manera personal nos podemos reunir en la siguiente ubicación, en los
                 siguientes horarios</h4>
             <div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d838.1684993283634!2d-79.96805716986012!3d-2.1445799652445268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1716675895402!5m2!1ses-419!2sec"
-                    width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade" align="center"></iframe>
                 <table border="1">
                     <tr>
