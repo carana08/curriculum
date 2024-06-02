@@ -116,6 +116,8 @@ a {
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+
+
 #habilidades,
 #contacto,
 #atencionPersonal {
@@ -133,8 +135,8 @@ a {
         rgba(0, 0, 0, 0.17) 0px 12px 13px,
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-#contacto .titulo, #atencionPersonal .titulo {
-    margin-top: 50px;
+#informacion .titulo,#educacion .titulo ,#Proyectos .titulo ,#habilidades .titulo,#contacto .titulo, #atencionPersonal .titulo {
+    margin-top: 20px;
     display: block;
     width: 100%;
     text-align: center;
