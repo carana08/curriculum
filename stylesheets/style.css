@@ -99,6 +99,45 @@ a {
     font-family: Montserrat;
 }
 
+.title{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-educacion {
+    display: flex;
+    flex-wrap: wrap;    
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.universidad, .colegio{
+    width: 30%;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+}
+
+.contenedor-informacion {
+    display: flex;
+    flex-wrap: wrap;    
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.articulo{
+    width: 40%;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+}
+
 #informacion,
 #educacion {
     border-radius: 5%;
@@ -116,7 +155,25 @@ a {
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.articulo:hover, .universidad:hover, .colegio:hover{
+    box-shadow: 0 4px 10px rgb(17,29,48);
+    color: white;
+    background-color: #ffa869;
+    transition: .5s;
+}
 
+#informacion .articulo:hover span, #educacion .universidad:hover span, #educacion .colegio:hover span{
+    color: white;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+#informacion .articulo:hover p, #educacion .universidad:hover p, #educacion .colegio:hover p{
+    color: black;
+    transition: .5s;
+
+}
 
 #habilidades,
 #contacto,
